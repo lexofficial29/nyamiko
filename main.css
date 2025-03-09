@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
+body {
+    margin: 0;
+    background-color: #313335;
+}
+* {
+    color: white;
+    background-color: #313335;
+}
+.container {
+    background-color: #313335;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyamiko</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- allow fetch data -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';">
+
+    <!-- primary meta tags -->
+
+    <meta name="title" content="Nyamiko">
+    <meta name="description" content="Your virtual furry friend">
+    <meta name="author" content="lexucuflexu">
+    <meta name="keywords" content="nyamiko, discord, bot, virtual, pet, furry, friend, game, fun, community, support, commands, about, getting started, level up, rewards, personalize, engage, manage, data, privacy, xp, pawcoins, crates, cards, inventory, lore, information, help, delete, support server, vote, invite, top.gg, discord.com, computer science, student, programming, features, improvements, feedback, suggestions, environment, users, care, interact, bloat, similar, bots, project, passion, love, pets, friendly, engaging, connect, activities, happy, petting, concerns, ideas, invite, join, vote, support server, top.gg, discord.com, computer science, student, programming, features, improvements, feedback, suggestions, environment, users, care, interact, bloat, similar, bots, project, passion, love, pets, friendly, engaging, connect, activities, happy, petting, concerns, ideas">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 day">
+    <meta name="language" content="English">
+
+    <!-- open graph -->
+
+    <meta property="og:title" content="Nyamiko">
+    <meta property="og:description" content="Your virtual furry friend">
+    <meta property="og:image" content="https://nyamiko.xyz/avatar.png">
+    <meta property="og:url" content="https://nyamiko.xyz">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nyamiko">
+    <meta property="og:locale" content="en_US">
+
+    <!-- twitter -->
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@lexucuflexu">
+    <meta name="twitter:creator" content="@lexucuflexu">
+    <meta name="twitter:title" content="Nyamiko">
+    <meta name="twitter:description" content="Your virtual furry friend">
+    <meta name="twitter:image" content="https://nyamiko.xyz/avatar.png">
+
+    <!-- favicon -->
+
+    <link rel="icon" href="https://nyamiko.xyz/avatar.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://nyamiko.xyz/avatar.png" type="image/x-icon">
+    
+
+</head>
+<body>
+    <div class="container-fluid border-bottom">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center" style="font-size:60px; font-family: 'Lemon/Milk', sans-serif;">Nyamiko</h1>
+                <h4 class="text-center">Your virtual furry friend</h4>
+                <!-- buttons to the sections -->
+                <div class="row">
+                    <div class="col-md-4 pt-3">
+                        <a href="#getting-started" class="btn btn-primary btn-lg btn-block">Getting Started</a>
+                    </div>
+                    <div class="col-md-4 pt-3">
+                        <a href="#commands" class="btn btn-primary btn-lg btn-block">Commands</a>
+                    </div>
+                    <div class="col-md-4 pt-3">
+                        <a href="#about" class="btn btn-primary btn-lg btn-block">About</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="getting-started" class="container-fluid border-bottom pt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center pb-3 bold">Getting Started with Nyamiko</h2>
+                <ol style="font-size: 20px">
+                    <li><strong>Add Nyamiko to Your Server:</strong> Invite Nyamiko to your Discord server using the <a href="https://discord.com/oauth2/authorize?client_id=1221735429494014012&permissions=0&scope=bot%20applications.commands">invite link.</a></li>
+                    <li><strong>Set Up Your First Pet:</strong> Use the <code>/pet</code> command to create your first pet. If you already have a pet, this command will display it.</li>
+                    <li><strong>Keep Your Pet Happy and Healthy:</strong> 
+                        <ul>
+                            <li><code>/feed</code> your pet regularly to keep it alive. Pets can survive up to 3 days without food.</li>
+                            <li><code>/play</code> with your pet to keep it entertained and gain XP.</li>
+                            <li><code>/pat</code> your pet to maintain its mood.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Level Up and Earn Rewards:</strong>
+                        <ul>
+                            <li>Gain XP through <code>/play</code> and other activities to level up your pet.</li>
+                            <li>Participate in the <code>/leaderboard</code> to see how your pet ranks globally.</li>
+                            <li>Exchange your XP for PawCoins using <code>/exchange [amount]</code>. 20 XP equals 1 PawCoin.</li>
+                            <li>Open crates with <code>/crate</code> to collect rare cards.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Personalize Your Experience:</strong>
+                        <ul>
+                            <li>Rename your pet using <code>/rename [name]</code>.</li>
+                            <li>Check your inventory with <code>/inventory [page]</code>.</li>
+                            <li>View specific cards using <code>/pull [name]</code>.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Engage with the Community:</strong>
+                        <ul>
+                            <li>Bet your XP with <code>/bet [amount]</code> for a chance to double it.</li>
+                            <li>Vote for Nyamiko on top.gg using <code>/vote</code> to earn XP.</li>
+                            <li>Join our support server using <code>/support</code> for help and updates.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Manage Your Data:</strong> Use <code>/deletepet</code> to delete your pet and all associated data if needed.</li>
+                </ol>
+                <p>We hope you enjoy your time with Nyamiko! If you have any questions or need assistance, don't hesitate to reach out through our <a href="https://discord.gg/UrqkdHe6kF">support server.</a></p>
+            </div>
+    </div>
+</div>
+
+<div id="commands" class="container-fluid border-bottom pt-3">
+    <div class="row">
+        <div class="col-md-12 border-bottom">
+            <h2 class="text-center bold">Commands</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>/pet</h4>
+                    <p>Using this command will generate you a new pet if you never had one or show your current one</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/feed</h4>
+                    <p>Feed your pet with this command. If you don't feed your pet often enough it will die! Pets can survive up to 3 days without food (can be less).</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/play</h4>
+                    <p>It's important to keep your pet entertained. Use this command to play with your pet and also gain XP which is used to level up your pet!</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/pat</h4>
+                    <p>Your pet's mood is very important! If it gets too low it might not want to play with you anymore.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/rename [name]</h4>
+                    <p>You can change your pet's name in case you don't like it (replace [name] with the name you want. Example: /renamepet Straton).</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/leaderboard</h4>
+                    <p>Shows the top 10 pets globally (across all servers) based on level</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/bet [amount] </h4>
+                    <p>Use this command to bet your XP. You can win double the XP you bet or lose it all (replace [amount] with the amount you want to bet. Example /bet 69).</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/vote</h4>
+                    <p>Vote our bot on top.gg and get up 500 xp as a thank you for supporting us!</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/exchange [amount]</h4>
+                    <p>You can exchange your XP for PawCoins (virtual cat coins). Exchanging only works in multiples of 20 because 20 xp = 1 coin (replace [amount] with the amount you want to exchange. Example: /exchange 40 gives 2 coins).</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/crate</h4>
+                    <p>Opens a crate, it contains rare collectible cards with which you complete your collection.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/inventory [page]</h4>
+                    <p>Shows your inventory. (replace [page] with the page you want to see. Example: /inventory 1).</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/pull [name]</h4>
+                    <p>Use this command to see a card from your inventory and all it's lore and information. (replace [name] with the name of the card you want to see. Example: /pull Choco).</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/help</h4>
+                    <p>Shows a list of all commands</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/support</h4>
+                    <p>Join our support server for help and updates</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>/deletepet</h4>
+                    <p>We value your privacy. Use this command to delete your pet and all data associated with it.</p>
+                </div>
+    </div>
+</div>
+
+<div id="about" class="container-fluid pt-3 pb-3">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center pb-3 bold">About Nyamiko</h2>
+            <p>Nyamiko is a fun project created by @lexucuflexu (discord), a computer science student with a passion for programming. The bot was designed to provide users with a virtual pet experience within Discord, allowing them to care for and interact with their pets in various ways without all the bloat that other similar bots have.</p>
+            <p>Our goal is to create a friendly and engaging environment for users to enjoy and connect with others through their shared love of pets. We are constantly working on new features and improvements to enhance the Nyamiko experience, and we welcome feedback and suggestions from our community.</p>
+            <p>Thank you for choosing Nyamiko as your virtual furry friend. We hope you have a great time with your pet and enjoy all the activities and rewards that come with it. If you have any questions, concerns, or ideas for the bot, please don't hesitate to reach out to us through our support server.</p>
+            <p>Happy petting!</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 bold">
+                        <h1>Support Server</h1>
+                        <p>Join our support server for help and updates: <a target="_blank" href="https://discord.gg/UrqkdHe6kF">Discord</a></p>
+                    </div>
+                    <div class="col-md-4 bold">
+                        <h1>Vote for Nyamiko</h1>
+                        <p>Vote for Nyamiko on top.gg and get up to 500 XP: <a target="_blank" href="https://top.gg/bot/1221735429494014012">Vote</a></p>
+                    </div>
+                    <div class="col-md-4 bold">
+                        <h1>Invite Nyamiko</h1>
+                        <p>Invite Nyamiko to your server: <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=1221735429494014012&permissions=0&scope=bot%20applications.commands">Invite</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
