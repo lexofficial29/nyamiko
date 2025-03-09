@@ -1,2 +1,1 @@
-# nyamiko
-# nyamiko
+# Nyamiko wiki page
